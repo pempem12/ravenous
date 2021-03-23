@@ -27,7 +27,7 @@ const business =
             <div className="Business-information">
               <div className="Business-address">
                 <p>{business.address}</p>
-                <p>Bordertown</p>
+                <p>{business.city}</p>
                 <p>{business.state} {business.zipCode}</p>
               </div>
               <div className="Business-reviews">
